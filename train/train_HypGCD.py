@@ -495,7 +495,5 @@ if __name__ == "__main__":
             with torch.no_grad():
                 all_acc, old_acc, new_acc = test_kmeans(model, test_loader_unlabelled, epoch=0, save_name='Train ACC Unlabelled', args=args)
                 args.logger.info('Train Accuracies: All {:.4f} | Old {:.4f} | New {:.4f}'.format(all_acc, old_acc, new_acc))
-                all_acc, old_acc, new_acc = test_kmeans(model, test_loader_unlabelled, epoch=0, save_name='Train ACC Unlabelled', args=args)
-                args.logger.info('Train Accuracies: All {:.4f} | Old {:.4f} | New {:.4f}'.format(all_acc, old_acc, new_acc))
     else:
         train(projection_head, model, train_loader, test_loader_labelled, test_loader_unlabelled, args)
