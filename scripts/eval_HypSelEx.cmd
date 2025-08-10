@@ -51,6 +51,6 @@ srun python -m train.train_HypSelEx \
     --mlp_out_dim ${dim} \
     --unsupervised_smoothing ${us} \
     --eval_only \
-    --eval_model_path hypcd_models/hypselex/dino${dino}/${data}/model_best_train_acc.pt \
+    --eval_model_path hypcd_models/hypselex/dino${dino}/${data}/model_test.pt \
     --hyper_max_weight ${hmw} > logs/eval_hypselex_dino${dino}_${data}.txt
 date

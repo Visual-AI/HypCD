@@ -46,6 +46,6 @@ srun python -m train.train_HypGCD \
             --cr $cr \
             --hyper_max_weight $hmw \
             --eval_only \
-            --eval_model_path hypcd_models/hypgcd/dino${dino}/${data}/model_best.pt \
+            --eval_model_path hypcd_models/hypgcd/dino${dino}/${data}/model_test.pt \
             --dino $dino > logs/eval_hypgcd_dino${dino}_${data}.txt
 date
