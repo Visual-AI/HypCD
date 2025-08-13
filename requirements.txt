@@ -4,7 +4,6 @@ bytecode==0.16.2
 cachetools==4.2.4
 certifi==2024.2.2
 charset-normalizer==3.3.2
-clip==1.0
 colorama==0.4.6
 cycler==0.12.1
 filelock==3.16.1
@@ -54,7 +53,6 @@ nvidia-nccl-cu12==2.20.5
 nvidia-nvjitlink-cu12==12.8.93
 nvidia-nvtx-cu12==12.1.105
 oauthlib==3.2.2
-open_clip_torch==2.32.0
 opencv-python==4.11.0.86
 packaging==24.0
 pandas==2.0.3

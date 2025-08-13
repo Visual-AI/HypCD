@@ -7,6 +7,8 @@ aircraft_root = '{DATA_PATH}/fgvc-aircraft-2013b'
 cifar_10_root = '{DATA_PATH}/cifar10'
 cifar_100_root = '{DATA_PATH}/cifar100'
 imagenet_root = '{DATA_PATH}/imagenet'
+herbarium_dataroot = '{DATA_PATH}/herbarium_19'
+pets_root = '{DATA_PATH}/oxford_pets'
 
 # OSR Split dir
 osr_split_dir = 'data/ssb_splits'
