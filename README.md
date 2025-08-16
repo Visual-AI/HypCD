@@ -39,7 +39,7 @@ git clone https://github.com/subhadarship/kmeans_pytorch
 cd kmeans_pytorch
 pip install --editable .
 ```
-Download the pretrained DINO/DINOv2 weights from their official repository https://github.com/facebookresearch/dino and https://github.com/facebookresearch/dinov2 to the ``PRETRAINED_PATH``.
+Download the pretrained DINO/DINOv2 weights from their official repository to the ``PRETRAINED_PATH``.
 
 ## Running 🏃
 ### Config
