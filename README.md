@@ -44,7 +44,7 @@ Download the pretrained DINO/DINOv2 weights from their official repository to th
 ## Running 🏃
 ### Config
 
-Set paths to datasets, pretrained weights, and log directories in ``config.py``
+Set paths to datasets, pretrained weights, and log directories in ``config.py``.
 
 
 ### Datasets
