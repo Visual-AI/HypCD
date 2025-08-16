@@ -27,11 +27,19 @@ cd HypCD
 
 We recommend setting up a conda environment for the project:
 
-```bash
+```
 conda create --name=hypcd python=3.8
 conda activate hypcd
 pip install -r requirements.txt
 ```
+
+Install the ``kmeans_pytorch``:
+```
+git clone https://github.com/subhadarship/kmeans_pytorch
+cd kmeans_pytorch
+pip install --editable .
+```
+Download the pretrained DINO/DINOv2 weights from their official repository https://github.com/facebookresearch/dino and https://github.com/facebookresearch/dinov2 to the ``PRETRAINED_PATH``.
 
 ## Running 🏃
 ### Config
