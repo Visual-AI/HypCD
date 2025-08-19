@@ -42,7 +42,6 @@ srun python -m train.train_HypSimGCD \
     --teacher_temp 0.04 \
     --warmup_teacher_temp_epochs 30 \
     --memax_weight 1.0 \
-    --exp_name aircraft_simgcd \
     --model_name ${dino} \
     --c $c \
     --cr $cr \

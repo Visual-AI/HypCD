@@ -349,7 +349,7 @@ if __name__ == "__main__":
 
     parser.add_argument('--fp16', action='store_true', default=False)
     parser.add_argument('--print_freq', default=10, type=int)
-    parser.add_argument('--exp_name', default=None, type=str)
+    parser.add_argument('--exp_name', default='simgcd', type=str)
 
     # hyperbolic
     parser.add_argument('--eval_only', action='store_true', default=False)
